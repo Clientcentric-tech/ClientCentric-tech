@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>Welcome to ClientCentric tech</h1>
+      <h1>This is for second repository</h1>
   </div>
 </template>
 
