@@ -1,75 +1,81 @@
-# Nuxt Minimal Starter
+# Company Portfolio Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern, responsive company portfolio website built with React, TypeScript, and Tailwind CSS.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- 📱 Fully responsive design
+- 🎨 Modern and clean UI
+- ✨ Smooth animations using Framer Motion
+- 🎯 SEO-friendly
+- 🚀 Fast loading times
+- 📦 Reusable components
+- 🎨 Customizable styling with Tailwind CSS
+- 🔍 TypeScript for better code quality
 
-```bash
-# npm
-npm install
+## Pages
 
-# pnpm
-pnpm install
+- **Home**: Landing page with hero section, features, and call-to-action
+- **About**: Company history, mission, and values
+- **Services**: Detailed list of services offered
+- **Products**: Showcase of company products
+- **Team**: Meet the team section
+- **Contact**: Contact form and company information
 
-# yarn
-yarn install
+## Tech Stack
 
-# bun
-bun install
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Lucide React (icons)
+- Vite (build tool)
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── assets/        # Static assets
+├── styles/        # Global styles
+└── types/         # TypeScript type definitions
 ```
 
-## Development Server
+## Available Scripts
 
-Start the development server on `http://localhost:3000`:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-```bash
-# npm
-npm run dev
+## Contributing
 
-# pnpm
-pnpm dev
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-# yarn
-yarn dev
+## License
 
-# bun
-bun run dev
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Production
+## Contact
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Your Name - email@company.com
+Project Link: [https://github.com/username/company-portfolio](https://github.com/username/company-portfolio)
